@@ -158,10 +158,13 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  background-color: #f5f4fa;
   color: var(--main-black-color);
   cursor: pointer;
 }
-.portfolio-buttons .button-item:hover .portfolio-buttons .button-item:focus {
+.portfolio-buttons .button-item:hover,
+.portfolio-buttons .button-item:focus {
+  background-color: #2196f3;
   color: #ffffff;
 }
 
